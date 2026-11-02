@@ -1,0 +1,11 @@
+aws_region = "us-east-1" #regiao onde sera criado os recursos
+
+project_name = "aws-ec2-network-lab" #nome de identificaçao
+
+vpc_cidr = "10.0.0.0/16" #bloco cidr utilizado pra definir a rede da vpc
+
+subnet_cidr = "10.0.1.0/24" #bloco cidr da subnet pubilca
+
+my_ip_cidr = "45.184.10.162/32" #ip autorizado a fazer conexao ssh com a ec2
+
+key_name = "chave" #par de chav criado previamente no console
