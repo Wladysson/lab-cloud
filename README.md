@@ -4,7 +4,7 @@
 
 Repositório estruturado para a entrega da atividade prática do módulo intermediário do programa Capacita, utilizando **Infraestrutura como Código (IaC) com Terraform** em conformidade com a trilha alternativa autorizada devido a restrições de faturamento na conta AWS.
 
-## 📁 Estruturação do Projeto
+## Estruturação do Projeto
 
 - `terraform/versions.tf`: Configuração das versões do provedor AWS.
 - `terraform/provider.tf`: Definição da região e provedor.
@@ -15,7 +15,7 @@ Repositório estruturado para a entrega da atividade prática do módulo interme
 - `terraform/outputs.tf`: Exportação dos IDs e do comando pronto de conexão SSH.
 - `terraform/terraform.tfvars`: Arquivo de variáveis locais com o IP de origem configurado.
 
-## 🚀 Como Executar
+## Como Executar
 
 1. Inicialize os provedores do Terraform:
    ```bash
